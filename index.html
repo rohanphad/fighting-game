@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="health-container">
+            <div class="parent player">
+                <div class="health-bar"></div>
+                <div class="empty" id="player"></div>
+            </div>
+            <div class="timer">60</div>
+            <div class="parent">
+                <div class="health-bar"></div>
+                <div class="empty" id="enemy"></div>
+            </div>
+        </div>
+        <div id="result"></div>
+        <canvas></canvas>
+    </div>
+    <script src="js/utils.js"></script>
+    <script src="js/classes.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
