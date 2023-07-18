@@ -43,28 +43,28 @@ const player = new Fighter({
         x: -180,
         y: -157
     },
-    imageSrc: './assets/enemy/samuraiMack/idle.png',
+    imageSrc: './assets/enemy/samuraiMack/Idle.png',
     scale: 2.5,
     framesMax: 8,
     sprites: {
         idle: {
-            imageSrc: './assets/enemy/samuraiMack/idle.png',
+            imageSrc: './assets/enemy/samuraiMack/Idle.png',
             framesMax: 8
         },
         run: {
-            imageSrc: './assets/enemy/samuraiMack/run.png',
+            imageSrc: './assets/enemy/samuraiMack/Run.png',
             framesMax: 8
         },
         jump: {
-            imageSrc: './assets/enemy/samuraiMack/jump.png',
+            imageSrc: './assets/enemy/samuraiMack/Jump.png',
             framesMax: 2
         },
         fall: {
-            imageSrc: './assets/enemy/samuraiMack/fall.png',
+            imageSrc: './assets/enemy/samuraiMack/Fall.png',
             framesMax: 2
         },
         attack1: {
-            imageSrc: './assets/enemy/samuraiMack/attack1.png',
+            imageSrc: './assets/enemy/samuraiMack/Attack1.png',
             framesMax: 6
         },
         takeHit: {
@@ -105,23 +105,23 @@ const enemy = new Fighter({
     framesMax: 4,
     sprites: {
         idle: {
-            imageSrc: './assets/player/kenji/idle.png',
+            imageSrc: './assets/player/kenji/Idle.png',
             framesMax: 4
         },
         run: {
-            imageSrc: './assets/player/kenji/run.png',
+            imageSrc: './assets/player/kenji/Run.png',
             framesMax: 8
         },
         jump: {
-            imageSrc: './assets/player/kenji/jump.png',
+            imageSrc: './assets/player/kenji/Jump.png',
             framesMax: 2
         },
         fall: {
-            imageSrc: './assets/player/kenji/fall.png',
+            imageSrc: './assets/player/kenji/Fall.png',
             framesMax: 2
         },
         attack1: {
-            imageSrc: './assets/player/kenji/attack1.png',
+            imageSrc: './assets/player/kenji/Attack1.png',
             framesMax: 4
         },
         takeHit: {
