@@ -100,7 +100,7 @@ const enemy = new Fighter({
         x: -180,
         y: -168
     },
-    imageSrc: './assets/player/kenji/idle.png',
+    imageSrc: './assets/player/kenji/Idle.png',
     scale: 2.5,
     framesMax: 4,
     sprites: {
